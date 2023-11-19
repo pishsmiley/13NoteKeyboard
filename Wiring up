@@ -1,0 +1,5 @@
+All the buttons are connected to the arduino on one side and to ground on the other.
+I have used old organ pedals, i had to work out how they worked. Mine had some diodes in there before connecting to a ground. I bypassed these.
+You could use non latching SPDT footswitches if you wanted or make it as big or small as you want.
+
+Pins
