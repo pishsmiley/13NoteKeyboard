@@ -26,14 +26,14 @@ MIDI_CREATE_DEFAULT_INSTANCE();
 const int incBtnPin = 7;               // Button for increasing the program change value
 const int decBtnPin = 6;               // Button for decreasing the program change value
 const int cc64BtnPin = 8;              // Button for toggling Control Change 64 (Sustain) on/off
-const int numBanks = 3;                // Number of MIDI Patch Banks
+const int numBanks = 3;                // ******************How many MIDI Patch Banks does the synth have?
 const int maxProgramsPerBank = 128;    // Maximum number of programs per bank
 const int maxPrograms = numBanks * maxProgramsPerBank;  // Total maximum number of programs
 
 // MIDI settings
 int midiChannel = 1;                    // Set MIDI channel for both program change and note buttons
-int currentBank = 1;                    // Initial MIDI Patch Bank
-int currentProgram = 0;                 // Initial MIDI Program
+int currentBank = 3;                    // Initial MIDI Patch Bank
+int currentProgram = 63;                 // Initial MIDI Program (Bank 3, 65 is first User patch on Microbrute)
 int currentOctave = 0;                  // Initial Octave on Power Up
 
 // Button state tracking
