@@ -3,3 +3,15 @@ I have used old organ pedals, i had to work out how they worked. Mine had some d
 You could use non latching SPDT footswitches if you wanted or make it as big or small as you want.
 
 Pins
+
+0 Not connected but maybe for Midi In Soon
+1 Connected to Midi out Din socket, see pictures
+2 Oct-
+3 Oct+
+4 Prog-
+5 Prog+
+6 Sustain Toggle CC#64
+
+41-53 are Switches 0-12 aka C-c
+
+I have wired a 2.1 barrel jack as centre negative so that this can run from guitar pedal power
