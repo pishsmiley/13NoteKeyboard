@@ -1,5 +1,5 @@
-//# 13NoteKeyboard
-//Arduino based 13 note keyboard, to make DIY Midi Organ Bass Pedals
+// 13NoteKeyboard
+// Arduino based 13 note keyboard, to make DIY Midi Organ Bass Pedals
 
 //Simple project, to diy a simple midi keyboard. I did this using my limited Electronics knowledge and ChatGPT to write the Arduino Code.
 //I have tried to make it so that it is adaptable to other peoples needs. The code is full of comments to help make adjustments.
