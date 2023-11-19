@@ -10,10 +10,10 @@
 
 //FEATURES
 //13 notes C-c
-//Octave Up/Octave down buttons
-//Program Up/Program down buttons
-//A button which toggles Sustain CC#64. (Press for on, press again for off)
-//Secondary function button, which when held changes the Octave Up/Down buttons into Midi Channel Change buttons, and also leaves opportunity for expansion
+//Octave Up,Octave down buttons
+//Program Up,Program down buttons
+//A button which toggles Sustain CC#64. Press for on, press again for off
+//Secondary function button, which when held changes the Octave Up,Down buttons into Midi Channel Change buttons, and also leaves opportunity for expansion
 //Midi Din Out
 
 //All switches are none latching spdt buttons with one side connected to an Arduino Pin and the other ground
