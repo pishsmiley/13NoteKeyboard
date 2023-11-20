@@ -2,6 +2,9 @@
 // Arduino based 13 note keyboard, to make DIY Midi Organ Bass Pedals
 
 //Simple project, to diy a simple midi keyboard. I did this using my limited Electronics knowledge and ChatGPT to write the Arduino Code.
+
+//To get going, look at all the files, this will help with wiring up and inspiring you how to mount stuff etc. There are both descriptions and pictures.
+
 //I have tried to make it so that it is adaptable to other peoples needs. The code is full of comments to help make adjustments.
 //Right now the code is setup for my needs, so that it works with an Arturia MicroFreak. For example this has 3 banks of 128 patches,
 //if your needs are different, look at the code and there are comments on what to adjust to fit your needs.
