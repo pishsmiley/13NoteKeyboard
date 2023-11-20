@@ -22,3 +22,5 @@
 //All switches are none latching spdt buttons with one side connected to an Arduino Pin and the other ground
 
 //When drilling for stomps, i lined mine up with keys as someone else has done the calculations for those. Dont bunch them up or theyll be useless. See pictures.
+
+//Ive used ChatGPT to get this all working, if you dont know what you are doing like myself and want to add features, copy the code into ChatGPT and ask it to help you make changes and send you the fully edited code for you to test. This may take a few back and forths but youll eventually get there, describe results and faults, etc
