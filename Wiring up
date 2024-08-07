@@ -6,12 +6,22 @@ Pins
 
 0 Not connected but maybe for Midi In Soon
 1 Connected to Midi out Din socket, see pictures
-2 Oct-
-3 Oct+
-4 Prog-
-5 Prog+
-6 Sustain Toggle CC#64
+2 2nd Function button used to change Midi channel in conjunction with Octave buttons. Tho dont need this if you just set and forget the channel in code 
+4 Oct-
+5 Oct+
+6 Prog-
+7 Prog+
+8 Sustain Toggle CC#64
+9 Turn on Aftertouch Transmission - Can set this as on at startup in code and not wire up.
+10 Turn on Exp 2 Transmission (Soon) - Can set this as on at startup in code and not wire up.
+11 Turn on Exp 3 Transmission (Soon) - Can set this as on at startup in code and not wire up.
+12 Turn on Exp 4 Transmission (Soon) - Can set this as on at startup in code and not wire up.
 
 41-53 are Switches 0-12 aka C-c
+
+A0 - Stereo jack. Tip-5v//Ring-A0//Sleeve-Ground - Aftertouch
+A1 - Stereo jack. Tip-5v//Ring-A1//Sleeve-Ground - Exp 2
+A2 - Stereo jack. Tip-5v//Ring-A2//Sleeve-Ground - Exp 3
+A3 - Stereo jack. Tip-5v//Ring-A3//Sleeve-Ground - Exp 4
 
 I have wired a 2.1 barrel jack as centre negative so that this can run from guitar pedal power
