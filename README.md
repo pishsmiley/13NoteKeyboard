@@ -10,6 +10,8 @@
 //if your needs are different, look at the code and there are comments on what to adjust to fit your needs.
 //I have done this project on an Arduino Mega 2560 Micro as it has plenty of pins for expansion.
 //Dont want the feature, dont wire it up and it will be fine
+//You could use it to just make a box that sends Program changes or just Midi expression pedals. 
+//I've tried to make it as easy as possible. The main code is full of comments.
 
 //FEATURES
 //13 notes C-c
