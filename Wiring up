@@ -22,7 +22,7 @@ Pins
 11 Turn on Exp 3 Transmission (Soon) - Can set this as on at startup in code and not wire up.
 12 Turn on Exp 4 Transmission (Soon) - Can set this as on at startup in code and not wire up.
 
-41-53 are Switches 0-12 aka C-c
+41-53 are Switches 0-12 aka Mucical notes C-c
 
 A0 - Stereo jack. Tip-5v//Ring-A0//Sleeve-Ground - Aftertouch
 A1 - Stereo jack. Tip-5v//Ring-A1//Sleeve-Ground - Exp 2
