@@ -20,6 +20,9 @@
 //A button which toggles Sustain CC#64. Press for on, press again for off
 //Secondary function button, which when held changes the Octave Up,Down buttons into Midi Channel Change buttons, and also leaves opportunity for expansion
 //Midi Din Out
+//Aftertouch Expression Input (soon)
+//Expression 2/3/4 set as 23Cutoff/83Resonance/106EvelopeDecay but can be changed to any midi CC in the code (soon)
+//Midi in/thru (soon, if I can be bothered)
 
 //All switches are none latching spdt buttons with one side connected to an Arduino Pin and the other ground
 
@@ -27,6 +30,9 @@
 //This is to find your min and max values for each expression pedal, to enter into the main program, the lines are marked up.
 // Tip is 5v/Ring is Analog pin/Sleeve is ground
 // You could use these with a stomp switch of your choice in a box or something like a EHX Cntl Knob pedal
+// Why is Expression 1 controlling Aftertouch? 
+// My reasoning is that on the Microfreak and other modern synths you have the ability to set per patch what Aftertouch does. (That is in the synth not this controller)
+// The other Expressions can be changed in the code just by changing the CC number
 
 //When drilling for stomps, i lined mine up with keys as someone else has done the calculations for those. Dont bunch them up or theyll be useless. See pictures.
 
