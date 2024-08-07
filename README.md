@@ -21,6 +21,11 @@
 
 //All switches are none latching spdt buttons with one side connected to an Arduino Pin and the other ground
 
+//Expression pedal inputs need to be set with the expression pedal you want to use. Using the AnalogExpA0set arduino code.
+//This is to find your min and max values for each expression pedal, to enter into the main program, the lines are marked up.
+// Tip is 5v/Ring is Analog pin/Sleeve is ground
+// You could use these with a stomp switch of your choice in a box or something like a EHX Cntl Knob pedal
+
 //When drilling for stomps, i lined mine up with keys as someone else has done the calculations for those. Dont bunch them up or theyll be useless. See pictures.
 
 //Ive used ChatGPT to get this all working, if you dont know what you are doing like myself and want to add features, copy the code into ChatGPT and ask it to help you make changes and send you the fully edited code for you to test. This may take a few back and forths but youll eventually get there, describe results and faults, etc
