@@ -2,10 +2,15 @@ All the buttons are connected to the arduino on one side and to ground on the ot
 I have used old organ pedals, i had to work out how they worked. Mine had some diodes in there before connecting to a ground. I bypassed these.
 You could use non latching SPDT footswitches if you wanted or make it as big or small as you want.
 
+I would decide what you want, then wire ground to all the switches/jacks
+5v to the tips of the expression jacks
+Then from each switch/expression to the correlating Arduino pin
+I used an Arduino 2560 pro for like £14 on ebay
+
 Pins
 
-0 Not connected but maybe for Midi In Soon
-1 Connected to Midi out Din socket, see pictures
+0 Not connected but maybe for Midi In (Soon)
+1 Connected to Midi out Din socket, see pictures as requires resistor
 2 2nd Function button used to change Midi channel in conjunction with Octave buttons. Tho dont need this if you just set and forget the channel in code 
 4 Oct-
 5 Oct+
