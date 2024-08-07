@@ -33,6 +33,7 @@
 // Why is Expression 1 controlling Aftertouch? 
 // My reasoning is that on the Microfreak and other modern synths you have the ability to set per patch what Aftertouch does. (That is in the synth not this controller)
 // The other Expressions can be changed in the code just by changing the CC number
+// I would advise powering down to plug in Expression pedal(s)
 
 //When drilling for stomps, i lined mine up with keys as someone else has done the calculations for those. Dont bunch them up or theyll be useless. See pictures.
 
