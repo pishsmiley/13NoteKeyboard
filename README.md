@@ -20,9 +20,9 @@
 //A button which toggles Sustain CC#64. Press for on, press again for off
 //Secondary function button, which when held changes the Octave Up,Down buttons into Midi Channel Change buttons, and also leaves opportunity for expansion
 //Midi Din Out
-//Aftertouch Expression Input (soon)
-//Expression 2/3/4 set as 23Cutoff/83Resonance/106EvelopeDecay but can be changed to any midi CC in the code (soon)
-//Midi in/thru (soon, if I can be bothered)
+//Aftertouch Expression Input
+//Expression 2/3/4 set as 23Cutoff/83Resonance/106EvelopeDecay but can be changed to any midi CC in the code
+
 
 //All switches are none latching spdt buttons with one side connected to an Arduino Pin and the other ground
 
