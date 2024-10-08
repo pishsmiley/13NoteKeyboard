@@ -9,7 +9,7 @@ I used an Arduino 2560 pro for like £14 on ebay
 
 Pins
 
-0 Not connected but maybe for Midi In (Soon)
+0 Not connected
 1 Connected to Midi out Din socket, see pictures as requires resistor
 2 2nd Function button used to change Midi channel in conjunction with Octave buttons. Tho dont need this if you just set and forget the channel in code 
 4 Oct-
@@ -18,9 +18,9 @@ Pins
 7 Prog+
 8 Sustain Toggle CC#64
 9 Turn on Aftertouch Transmission - Can set this as on at startup in code and not wire up.
-10 Turn on Exp 2 Transmission (Soon) - Can set this as on at startup in code and not wire up.
-11 Turn on Exp 3 Transmission (Soon) - Can set this as on at startup in code and not wire up.
-12 Turn on Exp 4 Transmission (Soon) - Can set this as on at startup in code and not wire up.
+10 Turn on Exp 2 Transmission - Can set this as on at startup in code and not wire up.
+11 Turn on Exp 3 Transmission - Can set this as on at startup in code and not wire up.
+12 Turn on Exp 4 Transmission - Can set this as on at startup in code and not wire up.
 
 41-53 are Switches 0-12 aka Mucical notes C-c
 
